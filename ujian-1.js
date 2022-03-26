@@ -1,12 +1,8 @@
-var n = 9;
+var value = 9;
 
-for (x = 1; x <= n; x++) {
-  for (y = 1; y <= n; y++) {
-    if (y % 1) {
-      document.write(" - ");
-    } else {
-      document.write(" * ");
-    }
+for (x = 0; x <= value; x++) {
+  for (y = 0; y <= value; y++) {
+    document.write(" * ");
   }
-  document.write("<br >");
+  document.write("<br>");
 }

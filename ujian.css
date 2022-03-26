@@ -1,0 +1,17 @@
+.ujian-box {
+  display: flex;
+  align-items: center;
+}
+.ujian1,
+.ujian2,
+.ujian3,
+.ujian4,
+.ujian5,
+.ujian6 {
+  border: 1px solid;
+  padding: 3px;
+  margin: 5px;
+}
+h1 {
+  text-align: center;
+}
